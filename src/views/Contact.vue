@@ -1,12 +1,13 @@
 <template>
-  <div class="about">123
+  <div >
+    <p>contact</p>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'about',
+  name: 'contact',
   components: {
   },
   data () {
