@@ -1,16 +1,15 @@
 <template>
   <div>
-    <FilpCard />
+    <Filpcard />
   </div>
 </template>
 
 <script>
-import FilpCard from '@/components/FilpCard.vue'
-
+import Filpcard from '@/components/Filpcard.vue'
 export default {
   name: 'Home',
   components: {
-    FilpCard,
+    Filpcard ,
   }
 }
 </script>
@@ -18,6 +17,5 @@ export default {
 <style lang="sass">
   @import @/assets/sass/_reset
   @import @/assets/sass/_page
-
 
 </style>

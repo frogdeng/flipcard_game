@@ -28,10 +28,6 @@
 <script>
 export default {
   name: "FilpCard",
-  data () {
-    return {
-      
-    }
-  }
+
 }
 </script>
