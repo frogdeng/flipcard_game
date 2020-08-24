@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "FilpCard",
+  name: 'FilpCard'
 
 }
 </script>

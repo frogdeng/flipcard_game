@@ -9,7 +9,7 @@ import Filpcard from '@/components/Filpcard.vue'
 export default {
   name: 'Home',
   components: {
-    Filpcard ,
+    Filpcard
   }
 }
 </script>
