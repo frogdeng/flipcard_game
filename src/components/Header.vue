@@ -38,13 +38,10 @@ export default {
       const data = qs.stringify({
         grant_type: 'client_credentials&client_id=b508366510546a1a2586ed8f529d6ebd&client_secret=65aac0b58b7f565ac99ab29269d946b5'
       })
-
       const headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
         withCredentials: true
-
       }
-
       axios.post(
         'https://account.kkbox.com/oauth2/token',
         data,

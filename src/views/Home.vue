@@ -1,15 +1,15 @@
 <template>
   <div>
-    <Filpcard />
+    <FlipCard />
   </div>
 </template>
 
 <script>
-import Filpcard from '@/components/Filpcard.vue'
+import FlipCard from '@/components/FlipCard.vue'
 export default {
   name: 'Home',
   components: {
-    Filpcard
+    FlipCard
   }
 }
 </script>
